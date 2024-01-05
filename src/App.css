@@ -23,6 +23,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.employee-list-container {
+  margin: 20px;
+}
+
+.employee-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0; /* Add the missing part */
+}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +49,5 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
